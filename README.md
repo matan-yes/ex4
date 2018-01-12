@@ -1448,6 +1448,7 @@ At first, we define a generic classification function, the input will be:
 2. Data (as dataframe)  
 3. Which attribute to use to fit and predict  
 4. Class column from the train set  
+  
 The function will do the  steps:  
 1. Train (fit) the model  
 2. Predict on the train dataset  
