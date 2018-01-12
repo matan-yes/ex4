@@ -1393,7 +1393,7 @@ df_test.drop('Loan_Status', axis=1, inplace = True)
 After we have made the data useful for modeling, let’s now look at the python code to create a predictive model on our data set.  
 Skicit-Learn (sklearn) is the most commonly used library in Python for this purpose and we will follow the trail.
 
-Since, sklearn requires all inputs to be numeric, we should convert all our categorical variables into numeric by encoding the categories. This can be done using the following code:
+Since many of the classification algorithms requires all inputs to be numeric, we should convert all our categorical variables into numeric by encoding the categories. This can be done using the following code:
 
 
 ```python
