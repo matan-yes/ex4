@@ -1443,9 +1443,17 @@ print (df_train.head(5))
     290         8.610866  
     
 
-At first, we define a generic classification function, which takes a model as input and determines the Accuracy and Cross-Validation scores.
-
-
+At first, we define a generic classification function, the input will be:  
+1. Classification Model  
+2. Data (as dataframe)  
+3. Which attribute to use to fit and predict  
+4. Class column from the train set  
+The function will do the  steps:  
+1. Train (fit) the model  
+2. Predict on the train dataset  
+3. Preform k-fold validation  
+4. Print accuracy  
+  
 ```python
 #Generic function for making a classification model and accessing performance:
 def classification_model(model, data, predictors, outcome):
