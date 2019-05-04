@@ -1,6 +1,6 @@
 
 <center>
-    <h1>Exercise 4: Data Analysis with Python</h1>
+    <h1>Loan Prediction Practice Problem- Data Analysis with Python</h1>
     <h2>By Matan Yeshurun and Alon Galperin</h2>
     <h3>Our Task: Loan Prediction Practice Problem</h3>
 </center>
